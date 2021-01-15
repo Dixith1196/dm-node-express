@@ -22,6 +22,6 @@ app.get('/help',(req,res)=>{
     res.send("This is a help page")
 })
 
-app.get('/help/:topic', (req, res) => {
-    res.send(`help response for ${req.params.topic}`)
+app.get('/help/:news', (req, res) => {
+    res.send(`The help results for ${req.params.news}`)
   })
